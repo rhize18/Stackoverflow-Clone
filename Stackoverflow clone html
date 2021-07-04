@@ -1,0 +1,295 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<link rel="icon" href="stack-overflow.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stackoverflow.css">
+	
+	<title> Stack Overflow - Where developers Learn, Share & build Careers </title>
+</head>
+<body>
+
+<div id="main-wrapper">
+<nav class="top-navbar">
+	<div class="menu" onclick="myFunction(this)"> <!-- hamburger menu-->
+		<div class="bar1"></div>
+		<div class="bar1"></div>
+		<div class="bar1"></div>
+	</div>
+			<div class="imagenav"> <!-- stack overflow image-->
+				<a href="stackoverflow.html"> <img src="stack-nav-image.png"/> </a>
+			</div>
+	<div class="navtext"> <!-- navigation text [about,products,for teams-->
+		<a class="navtext1" href="https://stackoverflow.com/company"> About </a>
+	</div>
+		<div class="navtext">
+			<a class="navtext2" href="#"> Products </a>
+		</div>
+			<div class="navtext">
+			<a class="navtext3" href="https://stackoverflow.com/teams"> For Teams </a>
+		</div>
+	
+	<input type="text" placeholder=" Search..."></input>
+		
+	<div class="navbutton"> <!--login and signup button-->
+		<button class="navbutton1" type="submit" placeholder="Log-in"> Log-in </button>
+				<button class="navbutton2" type="submit" placeholder="Log-in"> Sign-up </button>
+		</div> 
+</nav>	
+
+<section class="headline">
+	<img src="yellow-background.png"/>
+		<p class="headline1"> We <3 people who code </p>
+			<p class="headline2"> We build products that empower developers and connect them to solutions that enable productivity, growth, and discovery. </p>
+		
+		<div class="headline-buttons">
+			<button class="developer-button"> For developers </button>
+			<button class="business-button"> For business </button>
+		</div>
+</section>
+
+<section class="developer">
+	<h1> For developers, by developers </h1>
+		<hr>
+			<p> Stack Overflow is an <span>open community </span> for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.</p>
+</section>
+
+<section class="browse-boxes">
+	<div class="public-qa"> 
+		<img src="publicqa.jpg"/>
+			<p class="title"> Public Q&A </p>
+				<p class="info"> Get answers to more than 16.5 million questions and give back by sharing your knowledge with others.<a href="#"> Sign up </a> for an account.</p>
+			<a class="browse-button" href="https://stackoverflow.com/questions"> Browse questions </a>
+		</div>
+	<div class="private-qa"> 
+		<img src="privateqa.jpg"/>
+			<p class="title"> Private Q&A </p>
+				<p class="info"> Level up with Stack Overflow while you work. Share knowledge privately with your coworkers using our flagship Q&A engine.</p>
+			<a class="try-button" href="https://stackoverflow.com/teams"> Try for Free </a>
+		</div>
+	<div class="browse-job"> 
+		<img src="browsejobs.jpg"/>
+			<p class="title"> Browse jobs </p>
+				<p class="info"> Find the right job through high quality listings and search for roles based on title, technology stack, salary, location, and more.</p>
+			<a class="find-button" href="https://stackoverflow.com/jobs"> Try for Free </a>
+		</div>
+</section>
+<section class="business">
+	<h1> For businesses, by developers </h1>
+		<hr>
+			<p> Our mission is to help developers write the script of the future. This means helping you find and hire skilled developers for your business and providing them the tools they need to share knowledge and work effectively.</p>
+		<div class="another-boxes">
+			<div class="firstbox"> 
+				<img src="boximage1.jpg"/>
+					<p> Quickly find and share internal knowledge with <a href="https://stackoverflow.com/teams"> Private Q&A </a></p>
+				</div> 
+		<div class="secondbox"> 
+			<img src="boximage2.jpg"/>
+				<p> Find the perfect candidate for your growing technical team with <a href="https://stackoverflow.com/talent/en"> Talent solutions </a> </p>
+		</div> 
+	<div class="thirdbox"> 
+		<img src="boximage3.jpg"/>
+			<p>Accelerate the discovery of your products or services through our <a href="https://stackoverflow.com/advertising">Advertising platform </a></p>
+		</div> 
+</section>
+
+<section class="pricing">
+	<p class="title"> Unlock siloed knowledge with Stack Overflow for Teams </p>
+		<p class="info"> Wikis, chat messages, or formal documentation for knowledge management aren’t effective. Our question and answer format is a proven approach for accessing the right information in less time.</p>
+			<a href="https://stackoverflow.com/teams"> Learn more </a>
+			
+
+	<div class="pricing-options">
+	<!-- Business Package-->
+		<div class="basic-price">
+			<p class="basic1">Basic</p>
+				<p class="basic2"> Private knowledge base for teams </p>
+					<p class="amount">$6 USD </p>
+				<p class="teammate"> per teammate / month </p>
+			<hr class="hr2">
+	<div class="basic-options">
+		<p> <img src="trial.jpg"/> Free 30 day trial </p>
+			<p> <img src="chatops.jpg"/>ChatOps integrations - Slack & Microsoft Teams </p>
+				<p> <img src="privatehost.jpg"/>Your own private space hosted on stackoverflow.com </p>
+			<p> <img src="searchable.jpg"/>Fully searchable archive </p>
+		</div>
+			<button> Start your free trial now </button>
+	</div>
+	<!-- Business Package-->
+<div class="bus">
+	<div class="topper"> MOST USED </div>
+</div>
+	<div class="business-price">
+		<div class="business1">Business</div>
+			<p class="business2"> Private knowledge base with SSO and premium features </p>
+				<p class="amount"> $12 USD </p>
+			<p class="teammate"> per teammate / month </p>
+		<hr class="hr2">
+	<div class="business-options">
+		<p> <img src="longform.jpg"/> Long-form knowledge with Articles </p>
+			<p> <img src="chatops.jpg"/>Additional integrations — ChatOps, Jira, GitHub & Okta </p>
+				<p> <img src="searchable.jpg"/>Group content together into Collections </p>
+					<p> <img src="key.jpg"/> Single sign-on (SSO) with SAML </p>
+				<p> <img src="report.jpg"/> Reporting and analytics </p>
+			<p> <img src="priority.jpg"/> Priority customer support </p>
+		<p> <img src="star.jpg"/>99.5% uptime </p>
+	</div>
+			<button> Get started </button>
+	</div>
+		<!-- Enterprise Package-->
+<div class="enterprise-price">
+	<div class="enterprise1">Enterprise</div>
+			<p class="enterprise2"> Standalone knowledge base with enhanced security and flexible hosting </p>
+				<p class="amount"> Custom pricing </p>
+			<p class="teammate"> Let’s talk about what you need </p>
+		<hr class="hr2">
+	<div class="enterprise-options">
+		<p> <img src="add.jpg"/> Premium features of Business plus... </p>
+			<p> <img src="chatops.jpg"/>ChatOps, Jira, GitHub & Okta integrations </p>
+				<p> <img src="unli.jpg"/>Unlimited Teams within your instance</p>
+					<p> <img src="key.jpg"/> Single sign-on with AD or SAML</p>
+				<p> <img src="flexi.jpg"/> Flexible hosting options — cloud or on-premises </p>
+			<p> <img src="api.jpg"/> Robust read and write API </p>
+		<p> <img src="success.jpg"/>Your own customer success and community building representative </p>
+		<p> <img src="star.jpg"/>99.5% uptime SLA and priority support </p>
+	</div>
+			<button> Get started </button>	
+		</div>
+</div>
+	<div id="bottom-link">
+		<img src="bottomlink-icon.jpg"/>
+		<div class="leader"> <b> Leader </b> Winter 2021 </div>
+		<img src="bottomlink-icon.jpg"/>
+		<div class="user"> Users Love Us </div>
+	</div>
+</section>
+
+<section id="overflow">
+	<div class="talent">
+		<img src="boximage2.jpg"/>
+		<h1> Hire your technical talent </h1>
+			<p>We help expand your technical hiring strategy to promote your employer brand and highlight relevant open roles to our community of over 100 million developers and technologists.</p>
+		<button> Stack Overflow Talent </button>
+	</div>
+		<div class="advertising">
+		<img src="boximage3.jpg"/>
+			<h1>Reach developers worldwide</h1>
+				<p>Use the world’s largest resource for people who code to help you increase awareness and showcase your product or service across Stack Overflow’s network of Q&A sites.</p>
+			<button> Stack Overflow Advertising </button>
+</section>
+
+<section id="questions">
+	<h1> Questions are everywhere, answers are on Stack Overflow </h1>
+	<p> Assumed that this is an animated field </p>
+		<img src="assumed-animation.jpg"/>
+			<button> Create an account </button>
+</section>
+
+<section class="learn-grow">
+	<h1> Learn and grow with Stack Overflow </h1>
+		<div class="lg">
+			<div class="lg-info">
+			<img src="write.jpg"/>
+				<h1> Write the script of the future </h1>
+			<p> Get your coding questions answered to learn, build, and level up whether you’re beginning with <a href="#"> JavaScript </a> or a <a href="#"> React </a> professional.</p>
+		</div>
+		
+		<div class="lg-info">
+			<img src="support.jpg"/>
+				<h1> Support open source </h1>
+			<p> Reach users of your project by following tags, answering newcomer questions, and empowering experts in the community. <a href="#">Read the curl project creator’s story</a>.</p>
+		</div>
+		
+		<div class="lg-info">
+			<img src="acquire.jpg"/>
+				<h1> Acquire and share knowledge </h1>
+			<p> Answer questions and <a href="#">gain insights </a> from an audience of developers using your technology on Stack Overflow.</p>
+		</div>
+		
+		<div class="lg-info">
+			<img src="find.jpg"/>
+				<h1> Find career opportunities </h1>
+			<p> Create a profile that shows off your expertise and credentials to help you make your next move. Start your <a href="#">Developer Story</a>.</p>
+		</div>
+	</div>
+</section>
+
+<section class="job">
+	<h1> Looking for a job? </h1>
+		<div class="job-link">
+			<div class="job-option">
+				<a href="#"><img src="jobtech.jpg"/>
+					<p> Browse jobs by technology</p>
+				</a>
+			</div>
+			<div class="job-option">
+				<a href="#"><img src="jobsalary.jpg"/>
+					<p> Browse jobs by salary</p>
+				</a>
+			</div>
+			<div class="job-option">
+				<a href="#"><img src="jobsponsor.jpg"/>
+					<p> Browse jobs by visa sponsorship</p>
+					</a>
+			</div>
+			<div class="job-option">
+				<a href="#"><img src="jobremote.jpg"/>
+					<p> Browse remote-friendly jobs</p>
+				</a>
+			</div>
+			<div>
+				<button class="job-button"> View all jobs </button>
+			</div>
+		</div>
+</section>
+
+<footer> 
+	<img src="stack-overflow.png"/>
+	<nav class="stackoverflow">
+		<a href="#" class="options"> STACK OVERFLOW </a>
+		<a href="#"> <p>Questions </p></a>
+		<a href="#"> <p>Jobs </p></a>
+		<a href="#"> <p>Developer Jobs Directory</p> </a>
+		<a href="#"> <p>Salary Calculator</p> </a>
+		<a href="#"> <p>Help </p></a>
+		<a href="#"> <p>Mobile</p> </a>
+		<a href="#"> <p>Disable Responsiveness</p> </a>
+	</nav>
+	<nav class="products">
+		<a href="#" class="options"> PRODUCTS </a>
+		<a href="#"> <p>Teams </p></a>
+		<a href="#"> <p>Talent </p></a>
+		<a href="#"> <p>Advertising</p> </a>
+		<a href="#"> <p>Enterprise</p> </a>
+	</nav>
+	<nav class="company">
+		<a href="#" class="options"> COMPANY </a>
+		<a href="#"> <p>About</p></a>
+		<a href="#"> <p>Press</p></a>
+		<a href="#"> <p>Work Here</p> </a>
+		<a href="#"> <p>Legal</p> </a>
+		<a href="#"> <p>Privacy Policy </p></a>
+		<a href="#"> <p>Terms of Service</p> </a>
+		<a href="#"> <p>Contact Us</p> </a>
+	</nav>
+	<nav class="network">
+		<a href="#" class="options"> STACK EXCHANGE NETWORK</a>
+		<a href="#"> <p>Technology </p></a>
+		<a href="#"> <p>Life / Arts</p></a>
+		<a href="#"> <p>Culture / Recreation </p> </a>
+		<a href="#"> <p>Science </p> </a>
+		<a href="#"> <p>Other </p></a>
+	</nav>
+	
+	<nav class="socmed">
+		<a href="#"> Blog</a>
+		<a href="#"> Facebook</a>
+		<a href="#"> Twitter</a>
+		<a href="#"> LinkedIn</a>
+		<a href="#"> Instagram</a>
+	<p class="design"> site design / logo © 2021 Stack Exchange Inc; user contributions licensed under cc by-sa. rev 2021.2.4.38498 </p>
+	</nav>
+</footer>
+</body>
+</html>
