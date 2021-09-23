@@ -877,3 +877,7 @@ footer a:hover {
 	padding-top: 180px;
 	color: #566573;
 }
+
+@media (min-width: 360px) and (max-width: 600px) {
+.navtext { display: none; }
+}
