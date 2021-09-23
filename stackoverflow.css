@@ -878,6 +878,6 @@ footer a:hover {
 	color: #566573;
 }
 
-@media (min-width: 360px) and (max-width: 600px) {
+@media screen (max-width: 600px) {
 .navtext { display: none; }
 }
